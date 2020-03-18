@@ -5,7 +5,7 @@ import os
 
 # confirmed cases
 url = f"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/a9f182afe873ce7e65d2307fcf91013c23a4556c" \
-      f"/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv "
+      f"/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv"
 dfC = pd.read_csv(url, error_bad_lines=False)
 
 # deaths
@@ -15,7 +15,7 @@ dfD = pd.read_csv(url, error_bad_lines=False)
 
 # recovered cases
 url = f"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/a9f182afe873ce7e65d2307fcf91013c23a4556c" \
-      f"/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv "
+      f"/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv"
 dfR = pd.read_csv(url, error_bad_lines=False)
 
 
