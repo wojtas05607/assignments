@@ -33,9 +33,9 @@ def countries_with_no_deaths_count(date: datetime.date) -> int:
     where infections were found, but nobody died on a given date. (DO NOT GROUP BY)
     Ex.
     >>> countries_with_no_deaths_count(datetime.date(2020, 3, 15))
-    44
+    171
     >>> countries_with_no_deaths_count(datetime.date(2020, 2, 18))
-    33
+    46
     :param date: Date object of the date to get the results for
     :return: Number of countries with no deaths but with active cases on a given date as an integer
     """
